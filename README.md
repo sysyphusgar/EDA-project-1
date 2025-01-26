@@ -4,51 +4,12 @@ Overview
 
 This project involves an in-depth Exploratory Data Analysis (EDA) of the FoodHub dataset. The primary objective is to extract valuable insights regarding customer behavior, operational performance, and restaurant preferences. This analysis aims to help FoodHub optimize its operations and enhance customer satisfaction.
 
-Key Features
-Customer Preferences:
-	Identification of the most popular cuisines and their performance.
-	Analysis of order trends across weekdays and weekends.
-Order Characteristics:
-	Cost distribution and premium customer segmentation.
-	Food preparation time analysis and its impact on customer satisfaction.
-Operational Insights:
-	Delivery time analysis, including delays exceeding 60 minutes.
-	Correlation between ratings, food preparation time, and overall service quality.
-Revenue Insights:
-	Implementation of a revenue calculation model based on order costs.
+### Context
 
-Dataset
+The number of restaurants continues to grow steadily, catering to the needs of students and busy professionals who often rely on dining out due to their demanding schedules. Online food delivery services have become a convenient solution for such individuals, offering access to quality meals from their preferred eateries. A food delivery platform called FoodHub simplifies this process by providing users with a single app to order from a variety of restaurants.
 
-The dataset contains information on:
-	Restaurant and cuisine details
-	Order costs and preparation times
-	Delivery times and ratings
-	Customer and operational metrics
+Through the app, restaurants receive direct online orders from customers. Once an order is confirmed, the app assigns a delivery driver to pick it up. The driver uses GPS navigation to reach the restaurant and waits for the food to be prepared. After receiving the order, the driver confirms the pickup in the app and proceeds to deliver the food to the customer's location. Upon completing the delivery, the driver confirms the drop-off in the app. Customers have the option to rate their orders within the app. FoodHub generates revenue by charging restaurants a fixed percentage of each delivery order.
 
-Tools and Libraries
-	Programming Language: Python
-	Libraries: Pandas, NumPy, Matplotlib, Seaborn
-	Notebook Environment: Jupyter/VS Code
+### Objective
 
-Key Insights
-Customer Preferences:
-	American cuisine is the most ordered, followed by Japanese and Italian.
-	Weekend orders constitute the majority of total orders (71%).
-	Feedback collection needs improvement, as 39% of orders are unrated.
-Operational Performance:
-	Average delivery time is 24 minutes, with occasional delays beyond 60 minutes.
-	Delivery times are slightly longer during weekends.
-Revenue Insights:
-	Premium orders (cost > $20) represent 29.24% of total orders.
-	Restaurants with higher ratings and rating counts exhibit strong customer loyalty.
-
-Recommendations
-	Enhance customer feedback collection mechanisms to increase ratings coverage.
-	Focus on reducing delivery times, particularly for orders exceeding 60 minutes.
-	Identify and promote premium customers by offering personalized services.
-	Invest in restaurants with strong ratings and loyalty indicators to increase profitability.
-
-Visualization Highlights
-	Heatmaps and scatter plots for correlation analysis.
-	Bar charts for order distribution and revenue segmentation.
-	Statistical summaries of key performance indicators.
+The food delivery platform has collected data on various orders placed by its registered customers through its online app. The company aims to analyze this data to gain insights into the popularity and demand for different restaurants. This analysis will help them improve customer satisfaction and overall service quality. By addressing key business questions, the platform seeks to enhance its operational efficiency, boost customer engagement, and increase profitability.
