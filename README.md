@@ -1,6 +1,6 @@
-FoodHub Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA) - FoodHub food ordering app
 
-Overview
+### Overview
 
 This project involves an in-depth Exploratory Data Analysis (EDA) of the FoodHub dataset. The primary objective is to extract valuable insights regarding customer behavior, operational performance, and restaurant preferences. This analysis aims to help FoodHub optimize its operations and enhance customer satisfaction.
 
